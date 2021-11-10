@@ -386,6 +386,7 @@ h3{
 .faq__item{
     padding: 39px 0 39px 0;
     border-bottom: 1px solid #CACACA;
+    background: transparent;
 }
 
 /* Footer */
@@ -457,3 +458,4 @@ textarea{
 .footer_descr{
     padding: 137px 75px 0 236px;
 }
+
