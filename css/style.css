@@ -24,6 +24,7 @@
          url('../fonts/montserrat-v18-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/montserrat-v18-latin-600.svg#Montserrat') format('svg'); /* Legacy iOS */
   }
+
 *{
     margin: 0;
     padding: 0;
@@ -161,6 +162,49 @@ h3{
     font-weight: 600;
     font-size: 18px;
     line-height: 36px;
+    color: #CACACA;
+}
+
+.footer__form-heading{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #CACACA;
+}
+
+.input{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+}
+
+.btn-submit{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer__checkbox_descr{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+}
+
+.footer_descr{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
     color: #CACACA;
 }
 /* Header */
@@ -376,4 +420,40 @@ h3{
 .footer__container2{
     padding-top: 50px;
     padding-left: 371px;
+}
+
+.input{
+    background: #414141;
+    width: 570px;
+    height: 60px;
+    margin-top: 25px;
+    border: none;
+    text-indent: 15px;
+}
+
+textarea{
+    max-width: 570px;
+    min-height: 140px;
+    padding-top: 10px;
+}
+
+.btn-submit{
+    background: #FF9900;
+    border: none;
+    cursor: pointer;
+    padding: 19px 52px;
+    margin: 35px 22px 0 0;
+    color: #FFFFFF
+}
+
+.footer__checkbox{
+    margin-right: 4px;
+}
+
+.footer__checkbox_descr{
+    color: #CACACA;
+}
+
+.footer_descr{
+    padding: 137px 75px 0 236px;
 }
