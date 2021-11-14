@@ -398,11 +398,9 @@ h3{
     border-bottom: 1px solid #CACACA;
 }
 /* Footer */
-.footer{
-   background: #222222;
-}
 
 .footer-container{
+    background: #222222;
     padding-left: 75px;
     display: flex;
 }
