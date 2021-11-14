@@ -383,14 +383,27 @@ h3{
     border-bottom: 1px solid #CACACA;
 }
 
+.accordion__header{
+    margin-top: 39px;
+    padding-bottom: 39px;
+    border-bottom: 1px solid #CACACA;
+}
+
+.accordion__header:focus{
+    border-bottom: none;
+}
+
+.accordion__descr{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #CACACA;
+}
 /* Footer */
 .footer{
-    background: #222222;
-    color: #fff;
+   background: #222222;
 }
 
 .footer-container{
-    margin-left: 75px;
+    padding-left: 75px;
     display: flex;
 }
 
